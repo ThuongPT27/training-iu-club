@@ -1,0 +1,26 @@
+bài 2
+n = int(input("nhap so:"))
+a = list(map(int, input().split()))
+s = 0
+for i in range(n):
+  if i % 2 != 0:
+    s += a[i]
+print(s)
+
+
+bài 4
+a=int(input("nhập số 1:"))
+b=int(input("nhập số 2:"))
+c=int(input("nhập số 3:"))
+if a+b-c==0 or a+c-b==0 or b+c-a==0 and 0<=a<=100 and 0<=b<=100 and 0<=c<=100:
+    print ("yes")
+else:
+    print("no")
+
+
+bài 5
+n, q = map(int, input().split())
+a = list(map(int, input().split()))
+ngto= [0] * (n + 1)
+for i in range(n):
+    ngto[i+1] = ngto[i] + a[i]
