@@ -1,0 +1,4 @@
+bài :trừ 2 số
+
+a,b=map(int,input().split())
+print(a-b)
