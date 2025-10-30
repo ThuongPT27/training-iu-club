@@ -1,0 +1,5 @@
+Bài:dếm kí tự trong chuỗi
+
+n=input()
+do_dai=len(n)
+print(do_dai)
